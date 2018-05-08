@@ -1,0 +1,144 @@
+body{
+    background: #dedede;
+}
+
+.ic-search{
+    color: #f1f1f1;
+}
+.icon-camera{
+    background: #00a0c6;
+    color: #ffff;
+    padding: 5px 10px;
+}
+
+.icon-bars{
+    color: #c5c5c5;
+}
+
+#icon{
+    background: #464646;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.card{
+    margin-top: 15px;
+}
+
+.bottom-right{
+    position: fixed;
+    bottom: 4%;
+    right: 10%;
+    background: #00a0c6;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.bottom-left{
+    position: fixed;
+    bottom: 4%;
+    left: 10%;
+    background: #00a0c6;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+#icon-users{
+    font-size: 30px;
+    color: #ffffff;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#icon-up{
+    font-size: 30px;
+    color: #ffffff;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+div.speech {
+    padding: 10px;
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    bottom: 15%;
+    background-color: #fff;
+    border: 0px solid #666;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px; 
+    left: 1%;
+}
+
+div.speech:after {
+    content: '';
+	position: absolute;
+	bottom: 0;
+	left: 70%;
+	width: 0;
+	height: 0;
+	border: 30px solid transparent;
+	border-top-color: #fff;
+	border-bottom: 0;
+	border-right: 0;
+	margin-bottom: -30px;
+}
+
+#tum{
+    font-size: 30px;
+    color: #ace4f1;
+    background: #ffff;
+}
+
+#rss{
+    font-size: 30px;
+    background: #fff;
+    color: #fdc538;
+}
+#facebook{
+    font-size: 30px;
+    background: #fff;
+    color: #6088c7;
+}
+#pin{
+    font-size: 30px;
+    background: #ffffff;
+    color: #f33e3e;
+}
+
+div.detail-image{
+    visibility: hidden;
+}
+
+.card :hover{
+    cursor: pointer;
+}
+
+.card:hover div.detail-image{
+visibility: visible;
+}
+
+.text{
+    font-size: 11px;
+}
+
+.text-card{
+    position: absolute;
+    bottom: 5%;
+}
+@media only screen and (max-width: 600px) {
+    div.speech{
+        visibility: hidden;
+    }
+}
+
+
+  

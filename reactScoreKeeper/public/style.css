@@ -1,0 +1,35 @@
+body{
+    background: #FBFEF9;
+    color: #333333;
+}
+.input{
+    border-radius: 5px;
+    border-color: #BF1363;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.btn-create{
+    background: #BF1363;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.sum-of-score {
+    background: #BF1363;
+    color: #ffffff;
+}
+
+hr {
+    border-width: 2px;
+    background: #BF1363;
+}
+
+.input-round {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0 10px;
+}
